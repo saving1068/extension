@@ -17,6 +17,9 @@ Page({
   onLoad: function (options) {
     this.getIntro()
   },
+  getPhoneNumber(e){
+    console.log(e)
+  },
   getIntro(){
     wx.showLoading({
       title: '加载中',
